@@ -1,0 +1,179 @@
+2022-07-03 21:44:50,309 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 59) WFLYSEC0002: Activating Security Subsystem
+2022-07-03 21:44:50,314 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 41) WFLYCLINF0001: Activating Infinispan subsystem.
+2022-07-03 21:44:50,207 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 60) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2022-07-03 21:44:50,413 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 62) WFLYWS0002: Activating WebServices Extension
+2022-07-03 21:44:50,414 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2022-07-03 21:44:50,420 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 40) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2022-07-03 21:44:50,421 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2022-07-03 21:44:50,581 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 52) WFLYNAM0001: Activating Naming Subsystem
+2022-07-03 21:44:50,891 INFO  [org.wildfly.iiop.openjdk] (ServerService Thread Pool -- 42) WFLYIIOP0001: Activating IIOP Subsystem
+2022-07-03 21:44:51,281 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2022-07-03 21:44:51,656 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.4.0.Final
+2022-07-03 21:44:52,169 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 1.4.0.Final starting
+2022-07-03 21:44:52,688 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2022-07-03 21:44:52,817 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+2022-07-03 21:44:53,664 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.3)
+2022-07-03 21:44:53,666 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = postgresql
+2022-07-03 21:44:53,844 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2022-07-03 21:44:53,847 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2022-07-03 21:44:54,976 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0014: Creating file handler for path 'C:\Users\PC\Desktop\TrabalhosFreelance\desenvolvendo-aplicacoes-web-em-angularjs-e-java-aula-16\CRUD-back\wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2022-07-03 21:44:56,104 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0012: Started server default-server.
+2022-07-03 21:44:56,106 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2022-07-03 21:44:56,274 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.21.Final
+2022-07-03 21:44:58,430 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2022-07-03 21:44:58,430 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2022-07-03 21:44:58,568 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2022-07-03 21:44:59,024 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2022-07-03 21:44:59,027 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/CrudDS]
+2022-07-03 21:44:59,763 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0001: AIO wasn't located on this platform, it will fall back to using pure Java NIO.
+2022-07-03 21:45:00,813 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore C:\Users\PC\Desktop\TrabalhosFreelance\desenvolvendo-aplicacoes-web-em-angularjs-e-java-aula-16\CRUD-back\wildfly-10.1.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2022-07-03 21:45:00,830 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "CRUD-back-1.0.war" (runtime-name: "CRUD-back-1.0.war")
+2022-07-03 21:45:00,924 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\PC\Desktop\TrabalhosFreelance\desenvolvendo-aplicacoes-web-em-angularjs-e-java-aula-16\CRUD-back\wildfly-10.1.0.Final\standalone\deployments
+2022-07-03 21:45:02,126 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 65) AMQ221000: live Message Broker is starting with configuration Broker Configuration (clustered=false,journalDirectory=C:\Users\PC\Desktop\TrabalhosFreelance\desenvolvendo-aplicacoes-web-em-angularjs-e-java-aula-16\CRUD-back\wildfly-10.1.0.Final\standalone\data\activemq\journal,bindingsDirectory=C:\Users\PC\Desktop\TrabalhosFreelance\desenvolvendo-aplicacoes-web-em-angularjs-e-java-aula-16\CRUD-back\wildfly-10.1.0.Final\standalone\data\activemq\bindings,largeMessagesDirectory=C:\Users\PC\Desktop\TrabalhosFreelance\desenvolvendo-aplicacoes-web-em-angularjs-e-java-aula-16\CRUD-back\wildfly-10.1.0.Final\standalone\data\activemq\largemessages,pagingDirectory=C:\Users\PC\Desktop\TrabalhosFreelance\desenvolvendo-aplicacoes-web-em-angularjs-e-java-aula-16\CRUD-back\wildfly-10.1.0.Final\standalone\data\activemq\paging)
+2022-07-03 21:45:02,588 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 65) AMQ221013: Using NIO Journal
+2022-07-03 21:45:02,969 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-3) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2022-07-03 21:45:03,114 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2022-07-03 21:45:03,702 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 72) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2022-07-03 21:45:03,703 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 68) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2022-07-03 21:45:03,704 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 68) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2022-07-03 21:45:03,704 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 72) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2022-07-03 21:45:03,709 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 74) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2022-07-03 21:45:03,710 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 74) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2022-07-03 21:45:05,545 INFO  [org.wildfly.iiop.openjdk] (MSC service thread 1-5) WFLYIIOP0009: CORBA ORB Service started
+2022-07-03 21:45:05,779 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 65) AMQ221043: Protocol module found: [artemis-server]. Adding protocol support for: CORE
+2022-07-03 21:45:06,088 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 65) AMQ221043: Protocol module found: [artemis-amqp-protocol]. Adding protocol support for: AMQP
+2022-07-03 21:45:06,136 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 65) AMQ221043: Protocol module found: [artemis-hornetq-protocol]. Adding protocol support for: HORNETQ
+2022-07-03 21:45:06,138 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 65) AMQ221043: Protocol module found: [artemis-stomp-protocol]. Adding protocol support for: STOMP
+2022-07-03 21:45:07,242 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2022-07-03 21:45:08,235 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-5) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2022-07-03 21:45:08,237 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-6) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2022-07-03 21:45:08,235 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-7) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor acceptor
+2022-07-03 21:45:08,236 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-2) WFLYMSGAMQ0016: Registered HTTP upgrade for activemq-remoting protocol handled by http-acceptor-throughput acceptor
+2022-07-03 21:45:09,654 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for ProdutosPU
+2022-07-03 21:45:09,787 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 65) AMQ221007: Server is now live
+2022-07-03 21:45:09,787 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 65) AMQ221001: Apache ActiveMQ Artemis Message Broker version 1.1.0.wildfly-017 [nodeID=73c53503-f660-11ec-a0ef-073b06202047] 
+2022-07-03 21:45:09,961 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 70) WFLYMSGAMQ0002: Bound messaging object to jndi name java:/ConnectionFactory
+2022-07-03 21:45:10,070 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 65) AMQ221003: trying to deploy queue jms.queue.DLQ
+2022-07-03 21:45:10,091 INFO  [org.wildfly.extension.messaging-activemq] (ServerService Thread Pool -- 74) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2022-07-03 21:45:10,092 INFO  [org.apache.activemq.artemis.core.server] (ServerService Thread Pool -- 71) AMQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2022-07-03 21:45:10,498 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) WFLYJCA0007: Registered connection factory java:/JmsXA
+2022-07-03 21:45:10,993 INFO  [org.apache.activemq.artemis.ra] (MSC service thread 1-3) Resource adaptor started
+2022-07-03 21:45:10,994 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-3) IJ020002: Deployed: file://RaActivatoractivemq-ra
+2022-07-03 21:45:10,997 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-3) WFLYJCA0002: Bound JCA ConnectionFactory [java:/JmsXA]
+2022-07-03 21:45:10,997 INFO  [org.wildfly.extension.messaging-activemq] (MSC service thread 1-3) WFLYMSGAMQ0002: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2022-07-03 21:45:10,997 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 71) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'CRUD-back-1.0.war#ProdutosPU'
+2022-07-03 21:45:11,385 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 71) HHH000204: Processing PersistenceUnitInfo [
+	name: ProdutosPU
+	...]
+2022-07-03 21:45:11,897 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment CRUD-back-1.0.war
+2022-07-03 21:45:15,145 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 5.2.4.Final
+2022-07-03 21:45:16,429 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 71) HHH000412: Hibernate Core {5.0.10.Final}
+2022-07-03 21:45:16,431 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 71) HHH000206: hibernate.properties not found
+2022-07-03 21:45:16,434 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 71) HHH000021: Bytecode provider name : javassist
+2022-07-03 21:45:17,845 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 71) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-07-03 21:45:17,888 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'ChefeService' in deployment unit 'deployment "CRUD-back-1.0.war"' are as follows:
+
+	java:global/CRUD-back-1.0/ChefeService!chefes.ChefeService
+	java:app/CRUD-back-1.0/ChefeService!chefes.ChefeService
+	java:module/ChefeService!chefes.ChefeService
+	java:global/CRUD-back-1.0/ChefeService
+	java:app/CRUD-back-1.0/ChefeService
+	java:module/ChefeService
+
+2022-07-03 21:45:17,888 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'TipoCozinhaService' in deployment unit 'deployment "CRUD-back-1.0.war"' are as follows:
+
+	java:global/CRUD-back-1.0/TipoCozinhaService!tipos_cozinha.TipoCozinhaService
+	java:app/CRUD-back-1.0/TipoCozinhaService!tipos_cozinha.TipoCozinhaService
+	java:module/TipoCozinhaService!tipos_cozinha.TipoCozinhaService
+	java:global/CRUD-back-1.0/TipoCozinhaService
+	java:app/CRUD-back-1.0/TipoCozinhaService
+	java:module/TipoCozinhaService
+
+2022-07-03 21:45:17,889 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'RestauranteService' in deployment unit 'deployment "CRUD-back-1.0.war"' are as follows:
+
+	java:global/CRUD-back-1.0/RestauranteService!restaurantes.RestauranteService
+	java:app/CRUD-back-1.0/RestauranteService!restaurantes.RestauranteService
+	java:module/RestauranteService!restaurantes.RestauranteService
+	java:global/CRUD-back-1.0/RestauranteService
+	java:app/CRUD-back-1.0/RestauranteService
+	java:module/RestauranteService
+
+2022-07-03 21:45:19,604 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 71) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2022-07-03 21:45:19,605 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 71) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2022-07-03 21:45:21,327 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900: 2.3.5 (Final)
+2022-07-03 21:45:26,611 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 71) WFLYCLINF0002: Started client-mappings cache from ejb container
+2022-07-03 21:45:27,466 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 71) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'CRUD-back-1.0.war#ProdutosPU'
+2022-07-03 21:45:33,208 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 71) IJ000407: No lazy enlistment available for CrudDSPOOL
+2022-07-03 21:45:33,642 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 71) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-07-03 21:45:38,357 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 71) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2022-07-03 21:45:38,437 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 71) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1e1c228b
+2022-07-03 21:45:38,576 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 71) Envers integration enabled? : true
+2022-07-03 21:45:46,457 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 71) HHH000228: Running hbm2ddl schema update
+2022-07-03 21:45:55,546 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 76) RESTEASY002225: Deploying javax.ws.rs.core.Application: class config.ApplicationConfig
+2022-07-03 21:45:55,546 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 76) RESTEASY002200: Adding class resource tipos_cozinha.TipoCozinhaService from Application class config.ApplicationConfig
+2022-07-03 21:45:55,547 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 76) RESTEASY002205: Adding provider class config.ConstraintViolationExceptionMapper from Application class config.ApplicationConfig
+2022-07-03 21:45:55,547 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 76) RESTEASY002200: Adding class resource chefes.ChefeService from Application class config.ApplicationConfig
+2022-07-03 21:45:55,547 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 76) RESTEASY002205: Adding provider class config.CrossOriginFilter from Application class config.ApplicationConfig
+2022-07-03 21:45:55,547 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 76) RESTEASY002200: Adding class resource restaurantes.RestauranteService from Application class config.ApplicationConfig
+2022-07-03 21:45:55,741 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 76) WFLYUT0021: Registered web context: /
+2022-07-03 21:45:55,803 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Deployed "CRUD-back-1.0.war" (runtime-name : "CRUD-back-1.0.war")
+2022-07-03 21:45:56,102 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2022-07-03 21:45:56,103 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2022-07-03 21:45:56,103 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 124258ms - Started 541 of 776 services (420 services are lazy, passive or on-demand)
+2022-07-03 21:46:00,886 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 27) WFLYUT0022: Unregistered web context: /
+2022-07-03 21:46:01,054 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 7) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'CRUD-back-1.0.war#ProdutosPU'
+2022-07-03 21:46:01,058 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 7) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'CRUD-back-1.0.war#ProdutosPU'
+2022-07-03 21:46:01,100 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 7) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2022-07-03 21:46:01,144 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment CRUD-back-1.0.war (runtime-name: CRUD-back-1.0.war) in 265ms
+2022-07-03 21:46:01,145 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "CRUD-back-1.0.war" (runtime-name: "CRUD-back-1.0.war")
+2022-07-03 21:46:01,164 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for ProdutosPU
+2022-07-03 21:46:01,185 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 7) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'CRUD-back-1.0.war#ProdutosPU'
+2022-07-03 21:46:01,185 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 7) HHH000204: Processing PersistenceUnitInfo [
+	name: ProdutosPU
+	...]
+2022-07-03 21:46:01,195 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment CRUD-back-1.0.war
+2022-07-03 21:46:01,208 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ChefeService' in deployment unit 'deployment "CRUD-back-1.0.war"' are as follows:
+
+	java:global/CRUD-back-1.0/ChefeService!chefes.ChefeService
+	java:app/CRUD-back-1.0/ChefeService!chefes.ChefeService
+	java:module/ChefeService!chefes.ChefeService
+	java:global/CRUD-back-1.0/ChefeService
+	java:app/CRUD-back-1.0/ChefeService
+	java:module/ChefeService
+
+2022-07-03 21:46:01,209 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'TipoCozinhaService' in deployment unit 'deployment "CRUD-back-1.0.war"' are as follows:
+
+	java:global/CRUD-back-1.0/TipoCozinhaService!tipos_cozinha.TipoCozinhaService
+	java:app/CRUD-back-1.0/TipoCozinhaService!tipos_cozinha.TipoCozinhaService
+	java:module/TipoCozinhaService!tipos_cozinha.TipoCozinhaService
+	java:global/CRUD-back-1.0/TipoCozinhaService
+	java:app/CRUD-back-1.0/TipoCozinhaService
+	java:module/TipoCozinhaService
+
+2022-07-03 21:46:01,209 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'RestauranteService' in deployment unit 'deployment "CRUD-back-1.0.war"' are as follows:
+
+	java:global/CRUD-back-1.0/RestauranteService!restaurantes.RestauranteService
+	java:app/CRUD-back-1.0/RestauranteService!restaurantes.RestauranteService
+	java:module/RestauranteService!restaurantes.RestauranteService
+	java:global/CRUD-back-1.0/RestauranteService
+	java:app/CRUD-back-1.0/RestauranteService
+	java:module/RestauranteService
+
+2022-07-03 21:46:01,275 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 7) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2022-07-03 21:46:01,276 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 7) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2022-07-03 21:46:01,295 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 7) WFLYCLINF0002: Started client-mappings cache from ejb container
+2022-07-03 21:46:01,313 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 7) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'CRUD-back-1.0.war#ProdutosPU'
+2022-07-03 21:46:01,317 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 7) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-07-03 21:46:01,327 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] (ServerService Thread Pool -- 7) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2022-07-03 21:46:01,328 INFO  [org.hibernate.type.BasicTypeRegistry] (ServerService Thread Pool -- 7) HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1e1c228b
+2022-07-03 21:46:01,329 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 7) Envers integration enabled? : true
+2022-07-03 21:46:01,385 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 7) HHH000228: Running hbm2ddl schema update
+2022-07-03 21:46:01,715 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 26) RESTEASY002225: Deploying javax.ws.rs.core.Application: class config.ApplicationConfig
+2022-07-03 21:46:01,716 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 26) RESTEASY002200: Adding class resource restaurantes.RestauranteService from Application class config.ApplicationConfig
+2022-07-03 21:46:01,716 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 26) RESTEASY002200: Adding class resource chefes.ChefeService from Application class config.ApplicationConfig
+2022-07-03 21:46:01,717 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 26) RESTEASY002205: Adding provider class config.ConstraintViolationExceptionMapper from Application class config.ApplicationConfig
+2022-07-03 21:46:01,717 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 26) RESTEASY002205: Adding provider class config.CrossOriginFilter from Application class config.ApplicationConfig
+2022-07-03 21:46:01,717 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 26) RESTEASY002200: Adding class resource tipos_cozinha.TipoCozinhaService from Application class config.ApplicationConfig
+2022-07-03 21:46:01,733 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 26) WFLYUT0021: Registered web context: /
+2022-07-03 21:46:02,163 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "CRUD-back-1.0.war" with deployment "CRUD-back-1.0.war"
+2022-07-03 21:47:19,894 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-9) HHH000397: Using ASTQueryTranslatorFactory
